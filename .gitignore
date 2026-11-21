@@ -1,0 +1,19 @@
+# Build outputs
+build/
+*.tmp
+*.bak
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Repomix artifacts
+repomix-output*.txt
+.repomixignore

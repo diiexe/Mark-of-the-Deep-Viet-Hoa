@@ -1,0 +1,38 @@
+========================================================================
+             HUONG DAN CAI DAT VIET HOA: MARK OF THE DEEP
+             Phien ban ho tro: v2.3.6 (UE5)  |  Ban dich: v1.0.0
+            Thuc hien boi: Diiexe (https://github.com/diiexe)
+   [MIEN PHI 100%] Neu ban phai tra tien mua ban dich nay la bi lua dao
+========================================================================
+
+1. CACH CAI DAT TU DONG (KHUYEN DUNG):
+   - Buoc 1: Giai nen file MarkOfTheDeep_VietHoa_v1.0.0.zip ra bat ky dau.
+   - Buoc 2: Nhap dup chay file "CaiDat_VietHoa.bat".
+   - Buoc 3: Nhap phim "1" (hoac nhan Enter).
+     + Neu script tu dong tim thay thu muc game cua ban, chi can nhan
+       Enter de cai dat ngay.
+     + Neu ban cai game o vi tri khac, hay copy va dan duong dan thu muc
+       game vao cua so CMD roi nhan Enter.
+   - Buoc 4: Mo game va thuong thuc Tieng Viet!
+
+2. CACH CAI DAT THU CONG:
+   - Copy file "pakchunk0-VietHoa_P.pak" dan vao thu muc:
+     <Thu_Muc_Game>\MarkOfTheDeep\Content\Paks\~mods\
+     (Tu tao thu muc ~mods neu chua co).
+
+3. CACH GO BO (KHOI PHUC GAME GOC 100%):
+   - Chay file "GoCaiDat_VietHoa.bat" (hoac chay "CaiDat_VietHoa.bat"
+     va chon "2"), hoac xoa file "pakchunk0-VietHoa_P.pak" trong ~mods.
+
+4. TU CHINH SUA BAN DICH (DANH CHO NGUOI MUON SUA TEXT):
+   - Truy cap kho ma nguon tren GitHub, sua file:
+     src/translated_text/vi_strings.json
+   - Chay lenh: python src/tools/build_mod.py
+
+5. LUU Y:
+   - Ban dich duoc thuc hien bang AI phuc vu nhu cau ca nhan, chia se
+     cho ai can thi dung, dung duoc thi dung khong thi thoi nhe.
+   - Ban mod chi nap ngon ngu va font chu qua ~mods, chia se nguyen
+     trang khong bao hanh; nguoi chia se khong chiu trach nhiem neu
+     phat sinh loi game hay bat ky van de nao khac khi su dung.
+========================================================================
